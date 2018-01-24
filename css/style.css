@@ -7,7 +7,7 @@ body {
   padding-left: 1em !important;
   padding-right: 1em !important; }
 
-.navbar .nav-item .active {
+.navbar .nav-item.active {
   border-left: #444 3px solid; }
 
 .carousel-item {
@@ -36,13 +36,14 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   color: #fff; }
-  #home-heading .dark-overlay {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.7);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
+
+.dark-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 #video-play {
   position: relative;
@@ -55,17 +56,10 @@ body {
   color: #fff; }
   #video-play a {
     color: #fff; }
-  #video-play .dark-overlay {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.7);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
 
-#main-footer {
+footer#main-footer {
   background: #000;
-  color: white; }
+  color: #fff; }
 
 #page-header {
   height: 200px;
@@ -78,3 +72,12 @@ body {
 
 #about img {
   margin-top: -50px; }
+
+#faq .card {
+  border: #444; }
+  #faq .card a {
+    color: #fff;
+    text-decoration: none; }
+
+#faq .card-body, #faq .card-header {
+  background: #333; }
